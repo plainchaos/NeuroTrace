@@ -1,0 +1,7 @@
+{
+  "seed_data": "tests/fixtures/seed/canonical_export_snippet.json",
+  "generated_at": "2025-09-24T00:00:00Z",
+  "neurotrace_version": "1.0.0",
+  "pipeline_version": "mvp1",
+  "files": []
+}

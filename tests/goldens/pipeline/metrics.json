@@ -1,0 +1,18 @@
+{
+  "sessions": {
+    "s1": {
+      "branching_factor": null,
+      "clarity_debt": null,
+      "depth": 3,
+      "jumpiness": null,
+      "stability": null,
+      "transition_matrix": {},
+      "volume": 3,
+      "zone_mix": {}
+    }
+  },
+  "summary": {
+    "messages": 3,
+    "sessions": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "threads": [
+    {
+      "id": "sample-thread",
+      "title": "Sample Conversation",
+      "messages": [
+        {
+          "id": "msg-1",
+          "role": "user",
+          "content": {
+            "text": "Hello assistant"
+          },
+          "create_time": 1700000000.0
+        },
+        {
+          "id": "msg-2",
+          "role": "assistant",
+          "content": {
+            "text": "Hi! How can I help you today?"
+          },
+          "create_time": 1700000060.0
+        },
+        {
+          "id": "msg-3",
+          "role": "user",
+          "content": {
+            "text": "Just testing the pipeline."
+          },
+          "create_time": 1700000120.0
+        }
+      ]
+    }
+  ]
+}

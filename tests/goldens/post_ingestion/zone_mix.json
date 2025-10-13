@@ -1,0 +1,1 @@
+{"$schema": "https://vega.github.io/schema/vega-lite/v5.json", "width": 480, "height": 160, "data": {"values": []}, "mark": {"type": "bar"}, "encoding": {"x": {"field": "zone", "type": "nominal", "sort": "ascending"}, "y": {"field": "count", "type": "quantitative"}, "color": {"field": "zone", "type": "nominal"}}, "config": {"font": "DejaVu Sans"}}

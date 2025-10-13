@@ -1,0 +1,3 @@
+{"$schema":"https://vega.github.io/schema/vega-lite/v5.json","width":480,"height":320,"data":{"values":[]},"mark":{"type":"rect"},"encoding":{"x":{"field":"from","type":"nominal","sort":"ascending"},"y":{"field":"to","type":"nominal","sort":"ascending"},"color":{"field":"count","type":"quantitative"}},"config":{"font":"DejaVu Sans"}}
+
+

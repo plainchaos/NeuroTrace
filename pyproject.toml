@@ -1,0 +1,44 @@
+#[build-system]
+[build-system]
+requires = [
+  "setuptools>=68",
+  "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neurotrace"
+version = "1.0.0"
+description = "Neurotrace ingestion and analytics CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+authors = [{ name = "Neurotrace Team" }]
+dependencies = [
+  "networkx>=3.2",
+  "matplotlib>=3.8",
+  "scipy>=1.11",
+  "pandas>=2.0",
+  "typer>=0.9",
+  "fastapi>=0.110",
+  "uvicorn>=0.30",
+  "jsonschema>=4.19",
+]
+
+[project.scripts]
+neurotrace = "neurotrace.cli:app"
+neurotrace-shim = "neurotrace._shim_cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["neurotrace*"]
+exclude = ["tests*"]
+
+[tool.setuptools.package-data]
+# bundle SQL schema (and allow future data files under schema/)
+"neurotrace" = ["schema/*.sql"]
+
+

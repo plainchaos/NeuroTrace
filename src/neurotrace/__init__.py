@@ -1,0 +1,9 @@
+"""Neurotrace package version and public exports."""
+
+__all__: list[str] = []
+__version__ = "1.0.0"
+
+
+
+
+
