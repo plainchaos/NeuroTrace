@@ -261,7 +261,9 @@ def normalize_messages(raw: Dict[str, Any]) -> Iterable[Dict[str, Any]]:
             if not isinstance(raw_id, str):
                 raw_id = str(raw_id)
             node_path = _compute_node_path(mapping, node_id)
-            conv_id = msg.get("conversation_id") or conv.get("id") or ""
+            # Same fallback as the linear-messages path, so a conversation without
+            # an id still forms a session instead of being dropped.
+            conv_id = msg.get("conversation_id") or _conversation_identifier(conv, idx)
             norm_id = _normalized_id(raw_id, title if isinstance(title, str) else None, node_path)
 
             node_to_norm[node_id] = norm_id

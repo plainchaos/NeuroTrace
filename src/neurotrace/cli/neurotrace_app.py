@@ -72,6 +72,14 @@ def health(
     verbose: bool = typer.Option(False, "--verbose", help="Enable debug logging"),
 ) -> None:
     """Run a quick health check: DB connectivity and one query."""
+    # SQLite raises OperationalError (not FileNotFoundError) for a missing
+    # file or folder, so check for the file explicitly first.
+    if not Path(db).is_file():
+        typer.echo(
+            f"ERROR: DB not found: {db}. Run `neurotrace pipeline --input <export.json> --db {db}` "
+            "first, or pass --db <path>."
+        )
+        raise SystemExit(3)
     try:
         with open_db(db) as conn:
             sessions = list(fetch_distinct_conversations(conn, limit=1))

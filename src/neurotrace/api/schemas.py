@@ -36,6 +36,10 @@ class SessionItem(BaseModel):
     message_count: int
 
 
-TreeNode.update_forward_refs()
+# Pydantic v2 renamed update_forward_refs() to model_rebuild(); support both.
+if hasattr(TreeNode, "model_rebuild"):
+    TreeNode.model_rebuild()
+else:  # Pydantic v1
+    TreeNode.update_forward_refs()
 
 

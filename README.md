@@ -9,6 +9,13 @@ pip install -e .
 python -m neurotrace --help
 ```
 
+To run the test suite, install the test extras first:
+
+```bash
+pip install -e ".[test]"
+pytest -q
+```
+
 ## One-shot pipeline (JSON-first derived artifacts)
 
 Run the complete flow in one command (ingest → analytics → visuals → report). Artifacts are written under `outputs/derived/<domain>/<run_id>/` as JSON with a `manifest.json` per domain.

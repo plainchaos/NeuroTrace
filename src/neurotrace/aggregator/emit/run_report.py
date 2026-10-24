@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Tuple, List, Any
 import hashlib
@@ -18,7 +18,8 @@ logger = logging.getLogger("neurotrace.aggregator")
 
 
 def _iso_now() -> str:
-    return datetime.utcnow().replace(microsecond=0).isoformat() + "Z"
+    # Same output as the old utcnow() form (naive ISO + "Z"), without the deprecated call.
+    return datetime.now(timezone.utc).replace(microsecond=0, tzinfo=None).isoformat() + "Z"
 
 
 def _hash_bytes(b: bytes) -> str:

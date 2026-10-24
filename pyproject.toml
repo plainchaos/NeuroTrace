@@ -25,6 +25,12 @@ dependencies = [
   "jsonschema>=4.19",
 ]
 
+[project.optional-dependencies]
+test = [
+  "pytest>=7",
+  "httpx>=0.24",
+]
+
 [project.scripts]
 neurotrace = "neurotrace.cli:app"
 neurotrace-shim = "neurotrace._shim_cli:app"
