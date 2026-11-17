@@ -1,0 +1,3 @@
+{"$schema":"https://vega.github.io/schema/vega-lite/v5.json","width":480,"height":120,"data":{"values":[{"metric":"message_count","value":7},{"metric":"duration","value":12.462}]},"mark":{"type":"bar"},"encoding":{"x":{"field":"metric","type":"nominal","sort":["message_count","duration"]},"y":{"field":"value","type":"quantitative"}},"config":{"font":"DejaVu Sans"}}
+
+

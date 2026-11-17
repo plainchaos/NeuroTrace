@@ -220,3 +220,14 @@ Cursor_Agent_Management/
 # Ensure test fixtures and bundled schema are tracked
 !tests/**
 !src/neurotrace/schema/*.sql
+
+# Personal data: never commit (real chat exports, local databases, tokens).
+# Real data lives outside this repo, e.g. ~/projects/neurotrace-private-data/
+# (data/** and *.db are already ignored above.)
+neurotrace-private-data/
+conversations*.json
+conversations*.zip
+.vault/
+
+# Python caches
+__pycache__/

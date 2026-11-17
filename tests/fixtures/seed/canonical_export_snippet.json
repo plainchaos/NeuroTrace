@@ -1,0 +1,323 @@
+[
+  {
+    "title": "Weekend bike trip packing",
+    "create_time": 1735725601.095,
+    "update_time": 1735726572.689,
+    "mapping": {
+      "client-created-root": {
+        "id": "client-created-root",
+        "message": null,
+        "parent": null,
+        "children": [
+          "bd3ae703-23b7-44f5-b496-f94613d6e110"
+        ]
+      },
+      "068e0fc6-2b27-4148-b0c6-80fc8be181d3": {
+        "id": "bd3ae703-23b7-44f5-b496-f94613d6e110",
+        "message": {
+          "id": "bd3ae703-23b7-44f5-b496-f94613d6e110",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": null,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": true,
+          "weight": 0.0,
+          "metadata": {
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "client-created-root",
+        "children": [
+          "2e80f055-2ff0-45a4-aa14-cf639b68d838"
+        ]
+      },
+      "24d112ff-4529-477e-b13e-ccf9b9e2d455": {
+        "id": "2e80f055-2ff0-45a4-aa14-cf639b68d838",
+        "message": {
+          "id": "2e80f055-2ff0-45a4-aa14-cf639b68d838",
+          "author": {
+            "role": "system",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1735725600.569,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              ""
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1.0,
+          "metadata": {
+            "attachments": [
+              {
+                "id": "file-JRSW59YU5EUXEBAUZ0VPU8",
+                "name": "packing_list.md",
+                "mimeType": "text/markdown",
+                "fileSizeTokens": 963
+              },
+              {
+                "id": "file-392CFEZ0XBT1YN97666T3Q",
+                "name": "route_notes.json.zip",
+                "mimeType": "application/zip",
+                "fileSizeTokens": null
+              },
+              {
+                "id": "file-N0WLSDHJXVWKEFREXMGAVM",
+                "name": "weekend_plan_draft_v2_final_for_review_ok.md",
+                "mimeType": "text/markdown",
+                "fileSizeTokens": 705
+              },
+              {
+                "id": "file-730X6HB2REJCESNW75ZGAH",
+                "name": "gear.db",
+                "mimeType": "",
+                "fileSizeTokens": null
+              },
+              {
+                "id": "file-BR5GKD0DCZNRVU2QKXEYAE",
+                "name": "Figure-1.md",
+                "mimeType": "text/markdown",
+                "fileSizeTokens": 847
+              },
+              {
+                "id": "file-5G2FS8PN6RD5L1ADLYQFDJ",
+                "name": "Trip_Summary.pdf",
+                "mimeType": "application/pdf",
+                "fileSizeTokens": 7043
+              },
+              {
+                "id": "file-EPZF09GULEL87KWWC9QAF7",
+                "name": "weather_and_timing_notes_for_the_weekend.md",
+                "mimeType": "application/zip",
+                "fileSizeTokens": null
+              },
+              {
+                "id": "file-322B3Z4Z006AT8PFNV99AR",
+                "name": "maps.zip",
+                "mimeType": "application/zip",
+                "fileSizeTokens": null
+              }
+            ],
+            "is_visually_hidden_from_conversation": true
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "bd3ae703-23b7-44f5-b496-f94613d6e110",
+        "children": [
+          "db0d224a-60fe-4a2d-bca4-468a5d278827"
+        ]
+      },
+      "9805912e-0366-4f56-b717-e12b85a9549b": {
+        "id": "db0d224a-60fe-4a2d-bca4-468a5d278827",
+        "message": {
+          "id": "db0d224a-60fe-4a2d-bca4-468a5d278827",
+          "author": {
+            "role": "user",
+            "name": null,
+            "metadata": {}
+          },
+          "create_time": 1735725600.0,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick r"
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1.0,
+          "metadata": {
+            "selected_sources": [],
+            "selected_github_repos": [],
+            "serialization_metadata": {
+              "custom_symbol_offsets": []
+            },
+            "request_id": "76eefb82f4dcefcc52c3",
+            "message_source": null,
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "2e80f055-2ff0-45a4-aa14-cf639b68d838",
+        "children": [
+          "8672e883-74a8-45d1-9d1d-e1daa7f5ec53"
+        ]
+      },
+      "1aa51727-26bb-4156-b408-f4a5a44c2506": {
+        "id": "8672e883-74a8-45d1-9d1d-e1daa7f5ec53",
+        "message": {
+          "id": "8672e883-74a8-45d1-9d1d-e1daa7f5ec53",
+          "author": {
+            "role": "tool",
+            "name": "file_search",
+            "metadata": {}
+          },
+          "create_time": 1735725612.462,
+          "update_time": null,
+          "content": {
+            "content_type": "tether_browsing_display",
+            "result": "",
+            "summary": "",
+            "assets": null,
+            "tether_id": null
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 0.0,
+          "metadata": {
+            "command": "spinner",
+            "status": "running",
+            "request_id": "2483ffecdf3474d4dc9a",
+            "message_type": "next",
+            "model_slug": "gpt-4o",
+            "default_model_slug": "gpt-4o",
+            "parent_id": "db0d224a-60fe-4a2d-bca4-468a5d278827",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "db0d224a-60fe-4a2d-bca4-468a5d278827",
+        "children": [
+          "f72924fd-a2ad-4d62-935d-25fdcb39ca1c"
+        ]
+      },
+      "12499f8e-473f-43b6-b158-c6fc772962c8": {
+        "id": "cfc8fbfa-6c59-4af2-ae05-acc45de038b4",
+        "message": {
+          "id": "cfc8fbfa-6c59-4af2-ae05-acc45de038b4",
+          "author": {
+            "role": "tool",
+            "name": "file_search",
+            "metadata": {}
+          },
+          "create_time": 1735725612.462,
+          "update_time": null,
+          "content": {
+            "content_type": "tether_quote",
+            "url": "file-1E1SE1WK8A2YC9EV90W7C5",
+            "domain": "weather_and_timing_notes_for_the_weekend_trip.md",
+            "text": "Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind i",
+            "title": "weather_and_timing_notes_for_the_weekend_trip.md",
+            "tether_id": null
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1.0,
+          "metadata": {
+            "command": "context_stuff",
+            "is_visually_hidden_from_conversation": false,
+            "request_id": "920c2dc045a1e51e0137",
+            "message_type": "next",
+            "model_slug": "gpt-4o",
+            "default_model_slug": "gpt-4o",
+            "parent_id": "f72924fd-a2ad-4d62-935d-25fdcb39ca1c",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "f72924fd-a2ad-4d62-935d-25fdcb39ca1c",
+        "children": [
+          "938fc923-e5b3-42db-a33f-8ef533767987"
+        ]
+      },
+      "61991828-0498-4c79-82fc-cddb5c4a778a": {
+        "id": "938fc923-e5b3-42db-a33f-8ef533767987",
+        "message": {
+          "id": "938fc923-e5b3-42db-a33f-8ef533767987",
+          "author": {
+            "role": "tool",
+            "name": "file_search",
+            "metadata": {}
+          },
+          "create_time": 1735725612.462,
+          "update_time": null,
+          "content": {
+            "content_type": "tether_quote",
+            "url": "file-U3KFMTHR6WLWY56REXTZU0",
+            "domain": "gear_list.md",
+            "text": "The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover water, tools, snacks and a rain jacket. The checklist mentions a spare tube, a small pump and a multitool for quick repairs. A second section lists sunscreen, a light lock and a phone holder for the handlebar. The weather note says light wind in the morning and a chance of showers after four. Suggested timing is to leave at nine, rest at noon and be back before the evening. Earlier drafts also planned a shorter loop for days when the forecast looks poor. I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty kilometres with two stops for coffee and a short picnic. Please check whether the attached notes cover",
+            "title": "gear_list.md",
+            "tether_id": null
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1.0,
+          "metadata": {
+            "command": "context_stuff",
+            "is_visually_hidden_from_conversation": false,
+            "request_id": "6a57538026a961017547",
+            "message_type": "next",
+            "model_slug": "gpt-4o",
+            "default_model_slug": "gpt-4o",
+            "parent_id": "cfc8fbfa-6c59-4af2-ae05-acc45de038b4",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "cfc8fbfa-6c59-4af2-ae05-acc45de038b4",
+        "children": [
+          "93666986-fcba-4111-84dd-a129d5022860"
+        ]
+      },
+      "342ef045-89af-492c-8905-dea3b1a9cc74": {
+        "id": "85696662-98b0-4e67-8a48-2cc605a99712",
+        "message": {
+          "id": "85696662-98b0-4e67-8a48-2cc605a99712",
+          "author": {
+            "role": "tool",
+            "name": "file_search",
+            "metadata": {}
+          },
+          "create_time": 1735725612.462,
+          "update_time": null,
+          "content": {
+            "content_type": "text",
+            "parts": [
+              "I am planning a weekend bike trip along the river and want a simple packing list. The route is about forty"
+            ]
+          },
+          "status": "finished_successfully",
+          "end_turn": null,
+          "weight": 1.0,
+          "metadata": {
+            "is_visually_hidden_from_conversation": false,
+            "request_id": "34fe6c37235cc3227b90",
+            "message_type": "next",
+            "model_slug": "gpt-4o",
+            "default_model_slug": "gpt-4o",
+            "parent_id": "93666986-fcba-4111-84dd-a129d5022860",
+            "timestamp_": "absolute"
+          },
+          "recipient": "all",
+          "channel": null
+        },
+        "parent": "93666986-fcba-4111-84dd-a129d5022860",
+        "children": [
+          "67826ab3-ed3e-4682-85b6-dd83bb6bdc9e"
+        ]
+      }
+    }
+  }
+]
