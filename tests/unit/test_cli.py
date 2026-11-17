@@ -37,3 +37,19 @@ def test_cli_ingest_runs(tmp_path):
     result = runner.invoke(app, ["ingest", "--input", str(seed), "--db", str(db)])
     assert result.exit_code == 0
     assert db.exists()
+
+
+def test_missing_input_warns_about_demo_sample(capsys):
+    from neurotrace.cli.neurotrace_app import _resolve_input
+
+    path = _resolve_input(None)
+    err = capsys.readouterr().err
+    assert path.endswith("canonical_export_snippet.json")
+    assert "WARNING: --input not provided" in err
+
+
+def test_given_input_has_no_warning(capsys):
+    from neurotrace.cli.neurotrace_app import _resolve_input
+
+    assert _resolve_input("my_export.json") == "my_export.json"
+    assert capsys.readouterr().err == ""

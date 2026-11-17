@@ -32,6 +32,12 @@ def _resolve_input(path: Optional[str]) -> str:
     if path:
         return path
     if _DEF_SEED.exists():
+        typer.echo(
+            "WARNING: --input not provided; using the built-in demo sample "
+            "(tests/fixtures/seed/canonical_export_snippet.json). "
+            "Pass --input <export.json> to analyse your own data.",
+            err=True,
+        )
         return str(_DEF_SEED)
     typer.echo(
         "ERROR: --input not provided and canonical seed not found at tests/fixtures/seed/canonical_export_snippet.json"
